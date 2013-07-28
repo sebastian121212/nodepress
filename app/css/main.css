@@ -1,0 +1,29 @@
+.main-post-wrapper {
+  width: 50%;
+  margin:auto;
+  border-radius: 5px;
+}
+.main-post-header {
+  background: rgba(0,0,0,0.7);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 4px;
+  text-shadow: black 0px 1px 1px;
+  box-shadow: inset 0px -1px 10px black;
+}
+.main-post {
+  background: url('/img/squairy_light.png');
+  box-shadow: 0px 0px 10px black;
+  border-radius: 5px;
+  margin: 16px 0px;
+}
+.main-post-header span {
+  font-size: 16px;
+  color: white;
+}
+.main-post-content {
+  padding: 4px;
+  padding: 4px;
+  background: rgba(0,0,0,0.2);
+  text-shadow: 0px 1px 1px white;
+}
