@@ -32,10 +32,11 @@ define(['gnd'], function(Gnd){
   //
   Gnd.Route.listen(function(req) {
     req.get(function() {
+      req.get('main','#main','controllers/main/main');
       //
       // Admin routes
       //
-      req.get('admin',function(){
+      req.get('admin','#main',function(){
         req.render('views/admin/index.html',function(){
           req.redirect('/admin/home');
         });
