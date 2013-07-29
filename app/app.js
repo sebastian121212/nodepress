@@ -42,9 +42,6 @@ define(['gnd'], function(Gnd){
         });
         req.get('posts','.admin-content','controllers/admin/post');
         req.get('home','.admin-content',function(){
-          req.render('views/admin/home.html',function(){
-
-          });
         })
       });
     });
